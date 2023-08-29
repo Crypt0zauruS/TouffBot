@@ -2,26 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Pacifico"; /* Vous pouvez changer le nom si vous utilisez une autre police */
+  src: url("/Pacifico-Regular.ttf") format("truetype"); /* Assurez-vous que le chemin est correct */
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background: #222222;
+  color: white;
+}
+
+h1 {
+  font-family: "Pacifico", cursive !important;
+  background: linear-gradient(45deg, #007bff, #ffc107);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+}
+
+button {
+  background: linear-gradient(45deg, #007bff, #ffc107);
+  border: none;
+  color: rgb(239, 235, 235); /* Texte blanc pour contraster avec le gradient */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transition pour l'effet hover */
+}
+
+button:hover {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    45deg,
+    #005bdf,
+    #ffa507
+  ); /* Un peu plus sombre lors du hover */
+}
+
+button:active {
+  transform: scale(
+    0.95
+  ); /* Légère réduction de la taille du bouton lorsqu'il est pressé */
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.dots-loader {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 4px;
+  margin-left: 5px;
+}
+
+.dots-loader div {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #333; /* Vous pouvez changer cette couleur comme vous le souhaitez */
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.dots-loader div:nth-child(1) {
+  left: 0px;
+  animation: dots-loader1 0.6s infinite;
+}
+
+.dots-loader div:nth-child(2) {
+  left: 6px;
+  animation: dots-loader2 0.6s infinite;
+}
+
+.dots-loader div:nth-child(3) {
+  left: 12px;
+  animation: dots-loader3 0.6s infinite;
+}
+
+@keyframes dots-loader1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dots-loader2 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes dots-loader3 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

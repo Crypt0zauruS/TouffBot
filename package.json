@@ -1,7 +1,12 @@
 {
-  "name": "chatterbot",
+  "name": "touffbot",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Crypt0zauruS"
+  },
+  "description": "TouffBot, the coolest chatbot you'll ever meet",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,13 +18,19 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "dompurify": "^3.0.5",
+    "encoding": "^0.1.13",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
+    "openai": "^4.3.0",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.2"
   }
 }

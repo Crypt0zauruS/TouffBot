@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 TouffBot - Le Chatbot Intuitif 🚀
 
-## Getting Started
+Salut! Bienvenue dans le dépôt du **TouffBot** - le chatbot le plus cool que vous n'ayez jamais rencontré!
 
-First, run the development server:
+## 🎉 Pourquoi TouffBot?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Vous savez, il y a beaucoup de chatbots là-bas. Mais aucun d'entre eux n'a le charisme et la simplicité de **TouffBot**. Ce chatbot est conçu pour être intuitif, réactif et, surtout, amusant à utiliser!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Multilingue
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Oui, vous avez bien lu! **TouffBot** parle plusieurs langues! Que vous soyez anglophone, francophone ou même sinophone, **TouffBot** est là pour vous!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Technologie sous-jacente
 
-## Learn More
+Ce projet a été construit avec:
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/) - Le framework React le plus hot du moment!
+- [Tailwind CSS](https://tailwindcss.com/) - Pour des styles élégants sans (trop) d'effort.
+- [OpenAI](https://www.openai.com/) - Alimente les réponses intelligentes de notre bot.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Mise en route
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clonez ce dépôt
+2. Installez les dépendances avec `npm install` puis copier le fichier `.env.local_sample` en `.env.local` et ajouter votre clé API OpenAI
+3. Lancez le projet avec `npm run dev`
+4. Ouvrez votre navigateur et allez à `http://localhost:3000`
+5. Dites bonjour à **TouffBot**!
 
-## Deploy on Vercel
+## 🙌 Contribution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Des suggestions? Des améliorations? N'hésitez pas à ouvrir une issue ou une pull request. **TouffBot** est toujours impatient d'apprendre et de grandir!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📜 Licence
+
+Ce projet est sous licence ISC.
+
+---
+
+**English follows**
+
+---
+
+# 🤖 TouffBot - The Intuitive Chatbot 🚀
+
+Hey there! Welcome to the **TouffBot** repository - the coolest chatbot you'll ever meet!
+
+## 🎉 Why TouffBot?
+
+You know, there are lots of chatbots out there. But none of them have the charisma and simplicity of **TouffBot**. Our chatbot is designed to be intuitive, responsive, and most importantly, fun to use!
+
+## 🌍 Multilingual
+
+Yes, you read that right! **TouffBot** speaks multiple languages! Whether you're an English speaker, French speaker, or even a Chinese speaker, **TouffBot** is here for you!
+
+## 🛠️ Underlying Technology
+
+This project was built with:
+
+- [Next.js](https://nextjs.org/) - The hottest React framework out there right now!
+- [Tailwind CSS](https://tailwindcss.com/) - For (almost) effortlessly stylish styles.
+- [OpenAI](https://www.openai.com/) - Powers our bot's smart replies.
+
+## 🚀 Getting Started
+
+1. Clone this repository.
+2. Install the dependencies with `npm install`, then copy the `.env.local_sample` file to `.env.local` and add your OpenAI API key.
+3. Run the project with `npm run dev`.
+4. Open up your browser and go to `http://localhost:3000`.
+5. Say hi to **TouffBot**!
+
+## 🙌 Contributing
+
+Suggestions? Improvements? Feel free to open an issue or a pull request. **TouffBot** is always eager to learn and grow!
+
+## 📜 License
+
+This project is licensed under the ISC License.
