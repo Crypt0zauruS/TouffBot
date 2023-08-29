@@ -6,7 +6,7 @@
     "name": "Crypt0zauruS"
   },
   "description": "TouffBot, the coolest chatbot you'll ever meet",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
